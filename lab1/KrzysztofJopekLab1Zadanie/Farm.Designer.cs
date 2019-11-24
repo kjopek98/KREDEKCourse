@@ -66,100 +66,100 @@
             // sheep1
             // 
             this.sheep1.Image = ((System.Drawing.Image)(resources.GetObject("sheep1.Image")));
-            this.sheep1.Location = new System.Drawing.Point(170, 92);
-            this.sheep1.Margin = new System.Windows.Forms.Padding(2);
+            this.sheep1.Location = new System.Drawing.Point(227, 113);
+            this.sheep1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sheep1.Name = "sheep1";
-            this.sheep1.Size = new System.Drawing.Size(131, 122);
+            this.sheep1.Size = new System.Drawing.Size(175, 150);
             this.sheep1.TabIndex = 0;
             this.sheep1.TabStop = false;
             // 
             // sheep2
             // 
             this.sheep2.Image = ((System.Drawing.Image)(resources.GetObject("sheep2.Image")));
-            this.sheep2.Location = new System.Drawing.Point(319, 92);
-            this.sheep2.Margin = new System.Windows.Forms.Padding(2);
+            this.sheep2.Location = new System.Drawing.Point(425, 113);
+            this.sheep2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sheep2.Name = "sheep2";
-            this.sheep2.Size = new System.Drawing.Size(131, 122);
+            this.sheep2.Size = new System.Drawing.Size(175, 150);
             this.sheep2.TabIndex = 1;
             this.sheep2.TabStop = false;
             // 
             // sheep3
             // 
             this.sheep3.Image = ((System.Drawing.Image)(resources.GetObject("sheep3.Image")));
-            this.sheep3.Location = new System.Drawing.Point(475, 92);
-            this.sheep3.Margin = new System.Windows.Forms.Padding(2);
+            this.sheep3.Location = new System.Drawing.Point(633, 113);
+            this.sheep3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sheep3.Name = "sheep3";
-            this.sheep3.Size = new System.Drawing.Size(131, 122);
+            this.sheep3.Size = new System.Drawing.Size(175, 150);
             this.sheep3.TabIndex = 2;
             this.sheep3.TabStop = false;
             // 
             // sheep4
             // 
             this.sheep4.Image = ((System.Drawing.Image)(resources.GetObject("sheep4.Image")));
-            this.sheep4.Location = new System.Drawing.Point(633, 92);
-            this.sheep4.Margin = new System.Windows.Forms.Padding(2);
+            this.sheep4.Location = new System.Drawing.Point(844, 113);
+            this.sheep4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sheep4.Name = "sheep4";
-            this.sheep4.Size = new System.Drawing.Size(131, 122);
+            this.sheep4.Size = new System.Drawing.Size(175, 150);
             this.sheep4.TabIndex = 3;
             this.sheep4.TabStop = false;
             // 
             // sheep5
             // 
             this.sheep5.Image = ((System.Drawing.Image)(resources.GetObject("sheep5.Image")));
-            this.sheep5.Location = new System.Drawing.Point(170, 234);
-            this.sheep5.Margin = new System.Windows.Forms.Padding(2);
+            this.sheep5.Location = new System.Drawing.Point(227, 288);
+            this.sheep5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sheep5.Name = "sheep5";
-            this.sheep5.Size = new System.Drawing.Size(131, 122);
+            this.sheep5.Size = new System.Drawing.Size(175, 150);
             this.sheep5.TabIndex = 4;
             this.sheep5.TabStop = false;
             // 
             // sheep6
             // 
             this.sheep6.Image = ((System.Drawing.Image)(resources.GetObject("sheep6.Image")));
-            this.sheep6.Location = new System.Drawing.Point(319, 234);
-            this.sheep6.Margin = new System.Windows.Forms.Padding(2);
+            this.sheep6.Location = new System.Drawing.Point(425, 288);
+            this.sheep6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sheep6.Name = "sheep6";
-            this.sheep6.Size = new System.Drawing.Size(131, 122);
+            this.sheep6.Size = new System.Drawing.Size(175, 150);
             this.sheep6.TabIndex = 5;
             this.sheep6.TabStop = false;
             // 
             // sheep7
             // 
             this.sheep7.Image = ((System.Drawing.Image)(resources.GetObject("sheep7.Image")));
-            this.sheep7.Location = new System.Drawing.Point(475, 234);
-            this.sheep7.Margin = new System.Windows.Forms.Padding(2);
+            this.sheep7.Location = new System.Drawing.Point(633, 288);
+            this.sheep7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sheep7.Name = "sheep7";
-            this.sheep7.Size = new System.Drawing.Size(131, 122);
+            this.sheep7.Size = new System.Drawing.Size(175, 150);
             this.sheep7.TabIndex = 6;
             this.sheep7.TabStop = false;
             // 
             // sheep8
             // 
             this.sheep8.Image = ((System.Drawing.Image)(resources.GetObject("sheep8.Image")));
-            this.sheep8.Location = new System.Drawing.Point(633, 234);
-            this.sheep8.Margin = new System.Windows.Forms.Padding(2);
+            this.sheep8.Location = new System.Drawing.Point(844, 288);
+            this.sheep8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sheep8.Name = "sheep8";
-            this.sheep8.Size = new System.Drawing.Size(131, 122);
+            this.sheep8.Size = new System.Drawing.Size(175, 150);
             this.sheep8.TabIndex = 7;
             this.sheep8.TabStop = false;
             // 
             // wolf
             // 
             this.wolf.Image = ((System.Drawing.Image)(resources.GetObject("wolf.Image")));
-            this.wolf.Location = new System.Drawing.Point(797, 39);
-            this.wolf.Margin = new System.Windows.Forms.Padding(2);
+            this.wolf.Location = new System.Drawing.Point(1063, 48);
+            this.wolf.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.wolf.Name = "wolf";
-            this.wolf.Size = new System.Drawing.Size(131, 122);
+            this.wolf.Size = new System.Drawing.Size(175, 150);
             this.wolf.TabIndex = 8;
             this.wolf.TabStop = false;
             // 
             // dog
             // 
             this.dog.Image = ((System.Drawing.Image)(resources.GetObject("dog.Image")));
-            this.dog.Location = new System.Drawing.Point(18, 39);
-            this.dog.Margin = new System.Windows.Forms.Padding(2);
+            this.dog.Location = new System.Drawing.Point(24, 48);
+            this.dog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dog.Name = "dog";
-            this.dog.Size = new System.Drawing.Size(131, 122);
+            this.dog.Size = new System.Drawing.Size(175, 150);
             this.dog.TabIndex = 9;
             this.dog.TabStop = false;
             // 
@@ -171,17 +171,19 @@
             // 
             this.timeLabel.AutoSize = true;
             this.timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.timeLabel.Location = new System.Drawing.Point(821, 201);
+            this.timeLabel.Location = new System.Drawing.Point(1095, 247);
+            this.timeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.timeLabel.Name = "timeLabel";
-            this.timeLabel.Size = new System.Drawing.Size(74, 31);
+            this.timeLabel.Size = new System.Drawing.Size(93, 39);
             this.timeLabel.TabIndex = 10;
             this.timeLabel.Text = "Time";
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(319, 385);
+            this.startButton.Location = new System.Drawing.Point(425, 474);
+            this.startButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(131, 47);
+            this.startButton.Size = new System.Drawing.Size(175, 58);
             this.startButton.TabIndex = 11;
             this.startButton.Text = "Start";
             this.startButton.UseVisualStyleBackColor = true;
@@ -189,9 +191,10 @@
             // 
             // dogButton
             // 
-            this.dogButton.Location = new System.Drawing.Point(18, 181);
+            this.dogButton.Location = new System.Drawing.Point(24, 223);
+            this.dogButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dogButton.Name = "dogButton";
-            this.dogButton.Size = new System.Drawing.Size(131, 51);
+            this.dogButton.Size = new System.Drawing.Size(175, 63);
             this.dogButton.TabIndex = 12;
             this.dogButton.Text = "Dog in field";
             this.dogButton.UseVisualStyleBackColor = true;
@@ -199,9 +202,10 @@
             // 
             // buttonTime2x
             // 
-            this.buttonTime2x.Location = new System.Drawing.Point(827, 252);
+            this.buttonTime2x.Location = new System.Drawing.Point(1103, 310);
+            this.buttonTime2x.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonTime2x.Name = "buttonTime2x";
-            this.buttonTime2x.Size = new System.Drawing.Size(68, 31);
+            this.buttonTime2x.Size = new System.Drawing.Size(91, 38);
             this.buttonTime2x.TabIndex = 13;
             this.buttonTime2x.Text = "Time 4x";
             this.buttonTime2x.UseVisualStyleBackColor = true;
@@ -211,17 +215,19 @@
             // 
             this.dayNightLabel.AutoSize = true;
             this.dayNightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.dayNightLabel.Location = new System.Drawing.Point(202, 18);
+            this.dayNightLabel.Location = new System.Drawing.Point(237, 22);
+            this.dayNightLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dayNightLabel.Name = "dayNightLabel";
-            this.dayNightLabel.Size = new System.Drawing.Size(99, 51);
+            this.dayNightLabel.Size = new System.Drawing.Size(123, 63);
             this.dayNightLabel.TabIndex = 14;
             this.dayNightLabel.Text = "Day";
             // 
             // dogInHouseButton
             // 
-            this.dogInHouseButton.Location = new System.Drawing.Point(18, 252);
+            this.dogInHouseButton.Location = new System.Drawing.Point(24, 310);
+            this.dogInHouseButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dogInHouseButton.Name = "dogInHouseButton";
-            this.dogInHouseButton.Size = new System.Drawing.Size(131, 51);
+            this.dogInHouseButton.Size = new System.Drawing.Size(175, 63);
             this.dogInHouseButton.TabIndex = 15;
             this.dogInHouseButton.Text = "Dog in house";
             this.dogInHouseButton.UseVisualStyleBackColor = true;
@@ -231,9 +237,10 @@
             // 
             this.sheepCounterLabelName.AutoSize = true;
             this.sheepCounterLabelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.sheepCounterLabelName.Location = new System.Drawing.Point(367, 18);
+            this.sheepCounterLabelName.Location = new System.Drawing.Point(489, 22);
+            this.sheepCounterLabelName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.sheepCounterLabelName.Name = "sheepCounterLabelName";
-            this.sheepCounterLabelName.Size = new System.Drawing.Size(334, 51);
+            this.sheepCounterLabelName.Size = new System.Drawing.Size(418, 63);
             this.sheepCounterLabelName.TabIndex = 16;
             this.sheepCounterLabelName.Text = "Sheep Counter: ";
             // 
@@ -241,17 +248,19 @@
             // 
             this.sheepCounterLabel.AutoSize = true;
             this.sheepCounterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.sheepCounterLabel.Location = new System.Drawing.Point(685, 18);
+            this.sheepCounterLabel.Location = new System.Drawing.Point(913, 22);
+            this.sheepCounterLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.sheepCounterLabel.Name = "sheepCounterLabel";
-            this.sheepCounterLabel.Size = new System.Drawing.Size(70, 51);
+            this.sheepCounterLabel.Size = new System.Drawing.Size(87, 63);
             this.sheepCounterLabel.TabIndex = 17;
             this.sheepCounterLabel.Text = "24";
             // 
             // rulesButton
             // 
-            this.rulesButton.Location = new System.Drawing.Point(475, 385);
+            this.rulesButton.Location = new System.Drawing.Point(633, 474);
+            this.rulesButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rulesButton.Name = "rulesButton";
-            this.rulesButton.Size = new System.Drawing.Size(131, 47);
+            this.rulesButton.Size = new System.Drawing.Size(175, 58);
             this.rulesButton.TabIndex = 18;
             this.rulesButton.Text = "Rules";
             this.rulesButton.UseVisualStyleBackColor = true;
@@ -261,17 +270,18 @@
             // 
             this.numberOfDayLabel.AutoSize = true;
             this.numberOfDayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.numberOfDayLabel.Location = new System.Drawing.Point(297, 18);
+            this.numberOfDayLabel.Location = new System.Drawing.Point(396, 22);
+            this.numberOfDayLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.numberOfDayLabel.Name = "numberOfDayLabel";
-            this.numberOfDayLabel.Size = new System.Drawing.Size(46, 51);
+            this.numberOfDayLabel.Size = new System.Drawing.Size(57, 63);
             this.numberOfDayLabel.TabIndex = 19;
             this.numberOfDayLabel.Text = "1";
             // 
             // Farm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(959, 448);
+            this.ClientSize = new System.Drawing.Size(1279, 551);
             this.Controls.Add(this.numberOfDayLabel);
             this.Controls.Add(this.rulesButton);
             this.Controls.Add(this.sheepCounterLabel);
@@ -292,7 +302,7 @@
             this.Controls.Add(this.sheep3);
             this.Controls.Add(this.sheep2);
             this.Controls.Add(this.sheep1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Farm";
             this.RightToLeftLayout = true;
             this.Text = "Farm";

@@ -199,7 +199,7 @@ namespace KrzysztofJopekLab1Zadanie
         /// <param name="e"></param>
         private void rulesButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("ZASADY GRY: \nCelem gry jest przetrwać 7 dni nie tracąc wszystkich owiec. Owce pojawiają się na pastwisu w dzień (max. 8), " +
+            MessageBox.Show("ZASADY GRY: \nCelem gry jest przetrwać 7 dni nie tracąc wszystkich owiec. Owce pojawiają się na pastwisku w dzień (max. 8), " +
                 "opcjonalnie moze pilnować je pies pasterski.\nPo pewnym czasie nastaje noc, kiedy zjawia się wilk. Jeżeli pies nie pilnuje owiec, wilk " +
                 "zjada wszystkie owce z pastwiska. \nNastępnie nastaje nowy dzień,  jeśli owce zostały zjedzone, uzupełniają je na pastwisku kolejne.\n" +
                 "Jeśli stracisz wszystkie owce przed upływem 7 dni, przegrywasz. \nJeśli uda Ci się przetrwać, gratulacje! Wygrałeś :)", "ZASADY GRY",
