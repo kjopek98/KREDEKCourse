@@ -55,7 +55,7 @@ namespace KrzysztofJopekLab1Zadanie
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Timer1_Tick(object sender, EventArgs e)
         {
             timeLabel.Text = number.ToString();
             sheepCounterLabel.Text = sheepCounter.ToString();
@@ -159,7 +159,7 @@ namespace KrzysztofJopekLab1Zadanie
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void startButton_Click(object sender, EventArgs e)
+        private void StartButton_Click(object sender, EventArgs e)
         {
             Timer.Interval = 400;
             Timer.Start();
@@ -170,7 +170,7 @@ namespace KrzysztofJopekLab1Zadanie
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void dogButton_Click(object sender, EventArgs e)
+        private void DogButton_Click(object sender, EventArgs e)
         {
             dog.Visible = true;
         }
@@ -179,7 +179,7 @@ namespace KrzysztofJopekLab1Zadanie
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void buttonTime2x_Click(object sender, EventArgs e)
+        private void ButtonTime2x_Click(object sender, EventArgs e)
         {
             Timer.Interval = 100;
         }
@@ -188,7 +188,7 @@ namespace KrzysztofJopekLab1Zadanie
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void dogInHouseButton_Click(object sender, EventArgs e)
+        private void DogInHouseButton_Click(object sender, EventArgs e)
         {
             dog.Visible = false;
         }
@@ -197,7 +197,7 @@ namespace KrzysztofJopekLab1Zadanie
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void rulesButton_Click(object sender, EventArgs e)
+        private void RulesButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show("ZASADY GRY: \nCelem gry jest przetrwać 7 dni nie tracąc wszystkich owiec. Owce pojawiają się na pastwisku w dzień (max. 8), " +
                 "opcjonalnie moze pilnować je pies pasterski.\nPo pewnym czasie nastaje noc, kiedy zjawia się wilk. Jeżeli pies nie pilnuje owiec, wilk " +

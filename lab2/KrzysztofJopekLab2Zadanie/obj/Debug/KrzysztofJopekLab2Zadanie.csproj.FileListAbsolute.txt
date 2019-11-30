@@ -1,0 +1,9 @@
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2Zadanie\bin\Debug\KrzysztofJopekLab2Zadanie.exe.config
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2Zadanie\bin\Debug\KrzysztofJopekLab2Zadanie.exe
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2Zadanie\bin\Debug\KrzysztofJopekLab2Zadanie.pdb
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2Zadanie\obj\Debug\KrzysztofJopekLab2Zadanie.csprojAssemblyReference.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2Zadanie\obj\Debug\KrzysztofJopekLab2Zadanie.FormMain.resources
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2Zadanie\obj\Debug\KrzysztofJopekLab2Zadanie.Properties.Resources.resources
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2Zadanie\obj\Debug\KrzysztofJopekLab2Zadanie.csproj.GenerateResource.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2Zadanie\obj\Debug\KrzysztofJopekLab2Zadanie.exe
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2Zadanie\obj\Debug\KrzysztofJopekLab2Zadanie.pdb

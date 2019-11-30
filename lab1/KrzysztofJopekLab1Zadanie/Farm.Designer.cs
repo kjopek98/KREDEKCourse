@@ -165,7 +165,7 @@
             // 
             // Timer
             // 
-            this.Timer.Tick += new System.EventHandler(this.timer1_Tick);
+            this.Timer.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
             // timeLabel
             // 
@@ -187,7 +187,7 @@
             this.startButton.TabIndex = 11;
             this.startButton.Text = "Start";
             this.startButton.UseVisualStyleBackColor = true;
-            this.startButton.Click += new System.EventHandler(this.startButton_Click);
+            this.startButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
             // dogButton
             // 
@@ -198,7 +198,7 @@
             this.dogButton.TabIndex = 12;
             this.dogButton.Text = "Dog in field";
             this.dogButton.UseVisualStyleBackColor = true;
-            this.dogButton.Click += new System.EventHandler(this.dogButton_Click);
+            this.dogButton.Click += new System.EventHandler(this.DogButton_Click);
             // 
             // buttonTime2x
             // 
@@ -209,7 +209,7 @@
             this.buttonTime2x.TabIndex = 13;
             this.buttonTime2x.Text = "Time 4x";
             this.buttonTime2x.UseVisualStyleBackColor = true;
-            this.buttonTime2x.Click += new System.EventHandler(this.buttonTime2x_Click);
+            this.buttonTime2x.Click += new System.EventHandler(this.ButtonTime2x_Click);
             // 
             // dayNightLabel
             // 
@@ -231,7 +231,7 @@
             this.dogInHouseButton.TabIndex = 15;
             this.dogInHouseButton.Text = "Dog in house";
             this.dogInHouseButton.UseVisualStyleBackColor = true;
-            this.dogInHouseButton.Click += new System.EventHandler(this.dogInHouseButton_Click);
+            this.dogInHouseButton.Click += new System.EventHandler(this.DogInHouseButton_Click);
             // 
             // sheepCounterLabelName
             // 
@@ -264,7 +264,7 @@
             this.rulesButton.TabIndex = 18;
             this.rulesButton.Text = "Rules";
             this.rulesButton.UseVisualStyleBackColor = true;
-            this.rulesButton.Click += new System.EventHandler(this.rulesButton_Click);
+            this.rulesButton.Click += new System.EventHandler(this.RulesButton_Click);
             // 
             // numberOfDayLabel
             // 
