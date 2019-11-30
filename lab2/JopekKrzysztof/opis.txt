@@ -1,0 +1,14 @@
+Gra: Cywilizacja
+Celem gry jest w jak najszybszym czasie rozbudować maksymalnie swoją wioskę.
+Aby tego dokonać, trzeba wybudować cztery budynki: Domy mieszkalne, Koszary, Mury oraz Cud Świata.
+Do każdej budowy potrzeba surowców, a te można zdobywać poprzez robotników.
+Są ich 4 rodzaje: Górnik, Kupiec, Budowniczy oraz Drwal.
+Kolejno produkują oni kamień, złoto, punkty produkcji oraz drewno, 10 jednostek co sekundę.
+Żołnierze mają za zadadnie bronić wioski przed najazdem barbarzyńców, 
+przy pierwszym ataku potrzeba conajmniej 5 jednostek aby obronić wioskę,
+przy kolejnym aż 10. Ponadto gracza mogą spotkać dwa inne niespodziewane zdarzenia
+mające wpływ na stan surowców : Pożar oraz Powódź.
+Do wyboru są dwa poziomy trudności: łatwy i trudny.
+W każdym momencie można zmienić poziom trudności.
+Na start gracz zaczyna z 1000 sztukami złota.
+Gdy gracz wygra, jego wynik z czasem zostanie zapisany do pliku.

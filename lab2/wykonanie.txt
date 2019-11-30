@@ -1,0 +1,6 @@
+W zadaniu zostały stworzone dwie klasy abstrakcyjne: Worker oraz Disaster. Pierwsza jest klasą bazową dla
+5 różnych klas robotników: Górnik, Kupiec, Żołnierz, Budowlaniec oraz Drwal.
+Każda z klas dziedziczących korzysta z metod abstrakcyjnych, które mają inne działanie w zależności od danej klasy.
+Przy zakupie oraz sprzedaży robotnika jest wyświetlany odpowiedni komunikat, wywołany poprzez metodę abstrakcyjną.  
+Podobnie jest w przypadku klasy Disaster, która jest klasą bazową dla klas: Flood, Invasion oraz Fire. 
+Gdy wystąpi dana katastrofa, zostanie wyświetlony odpowiedni komunikat, wywołany poprzez metodę abstrakcyjną.  

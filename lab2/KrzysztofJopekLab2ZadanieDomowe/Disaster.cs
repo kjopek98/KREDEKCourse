@@ -8,6 +8,7 @@ namespace KrzysztofJopekLab2ZadanieDomowe
 {
     abstract public class Disaster
     {
+        //zmienne - "statystyki" katastrofy.
         protected string name;
         protected int damagePoints;
 

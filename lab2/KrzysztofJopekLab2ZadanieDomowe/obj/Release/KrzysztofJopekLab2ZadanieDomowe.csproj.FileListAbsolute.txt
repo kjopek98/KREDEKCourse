@@ -1,0 +1,9 @@
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\bin\Release\KrzysztofJopekLab2ZadanieDomowe.exe.config
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\bin\Release\KrzysztofJopekLab2ZadanieDomowe.exe
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\bin\Release\KrzysztofJopekLab2ZadanieDomowe.pdb
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Release\KrzysztofJopekLab2ZadanieDomowe.csprojAssemblyReference.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Release\KrzysztofJopekLab2ZadanieDomowe.Plemiona.resources
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Release\KrzysztofJopekLab2ZadanieDomowe.Properties.Resources.resources
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Release\KrzysztofJopekLab2ZadanieDomowe.csproj.GenerateResource.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Release\KrzysztofJopekLab2ZadanieDomowe.exe
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Release\KrzysztofJopekLab2ZadanieDomowe.pdb

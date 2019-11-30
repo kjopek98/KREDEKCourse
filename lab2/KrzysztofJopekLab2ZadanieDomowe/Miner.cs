@@ -21,12 +21,18 @@ namespace KrzysztofJopekLab2ZadanieDomowe
             workerName = name;
 
         }
-
+        /// <summary>
+        /// Metoda informująca o zaczęciu pracy.
+        /// </summary>
+        /// <returns></returns>
         public override string StartWork()
         {
             return "Górnik " + workerName + " zaczął pracę.";
         }
-
+        /// <summary>
+        /// Metoda informująca o sprzedaniu.
+        /// </summary>
+        /// <returns></returns>
         public override string StopWork()
         {
             return "Górnik " + workerName + " zginął";

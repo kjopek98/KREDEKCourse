@@ -9,7 +9,7 @@ namespace KrzysztofJopekLab2ZadanieDomowe
     class Flood : Disaster
     {
         /// <summary>
-        /// Konstruktor klasy Tram
+        /// Konstruktor klasy Flood
         /// </summary>
         /// <param name="nr"></param>
         /// <param name="year"></param>
@@ -18,7 +18,10 @@ namespace KrzysztofJopekLab2ZadanieDomowe
         {
             damagePoints = dp;
         }
-
+        /// <summary>
+        /// Metoda informująca o powodzi.
+        /// </summary>
+        /// <returns></returns>
         public override string StartDisaster()
         {
             return "Powódź zalała osadę! Tracisz po  części jednostek każdego surowca!";

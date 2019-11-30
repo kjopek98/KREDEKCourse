@@ -16,7 +16,7 @@ namespace KrzysztofJopekLab2ZadanieDomowe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Plemiona());
+            Application.Run(new Civilization());
         }
     }
 }

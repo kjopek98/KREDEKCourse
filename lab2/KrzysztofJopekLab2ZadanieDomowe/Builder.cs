@@ -9,7 +9,7 @@ namespace KrzysztofJopekLab2ZadanieDomowe
     class Builder : Worker
     {
         /// <summary>
-        /// Konstruktor klasy Tram
+        /// Konstruktor klasy Builder
         /// </summary>
         /// <param name="nr"></param>
         /// <param name="year"></param>
@@ -19,16 +19,22 @@ namespace KrzysztofJopekLab2ZadanieDomowe
             cost = 200;
             healthPoints = hp;
             workerName = name;
-
         }
+        /// <summary>
+        /// Metoda informująca o zaczęciu pracy.
+        /// </summary>
+        /// <returns></returns>
         public override string StartWork()
         {
-            return "Robotnik " + workerName + " zaczął pracę";
+            return "Budowniczy " + workerName + " zaczął pracę";
         }
-
+        /// <summary>
+        /// Metoda informująca o sprzedaniu.
+        /// </summary>
+        /// <returns></returns>
         public override string StopWork()
         {
-            return "Robotnik " + workerName + " sprzedany";
+            return "Budowniczy" + workerName + " sprzedany";
         }
     }
 }

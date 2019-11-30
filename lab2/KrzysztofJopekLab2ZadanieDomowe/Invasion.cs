@@ -18,11 +18,19 @@ namespace KrzysztofJopekLab2ZadanieDomowe
         {
             damagePoints = dp;
         }
+        /// <summary>
+        /// Metoda informująca o ataku barbarzyńców.
+        /// </summary>
+        /// <returns></returns>
         public override string StartDisaster()
         {
             return "Najazd barbarzyńców! Jeśli masz wystarczająco żołnierzy odeprzesz atak. " +
                 "W innym wypadku barbarzyńcy łupią osadę i tracisz po części jednostek każdego surowca.";
         }
+        /// <summary>
+        /// Metoda informująca o pokonaniu najeźdców.
+        /// </summary>
+        /// <returns></returns>
         public string StopDisaster()
         {
             return "Twoi żołnierze powstrzymali najazd barbarzyńców.";

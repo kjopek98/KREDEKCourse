@@ -9,7 +9,7 @@ namespace KrzysztofJopekLab2ZadanieDomowe
     class Dealer : Worker
     {
         /// <summary>
-        /// Konstruktor klasy Tram
+        /// Konstruktor klasy Dealer
         /// </summary>
         /// <param name="nr"></param>
         /// <param name="year"></param>
@@ -21,11 +21,18 @@ namespace KrzysztofJopekLab2ZadanieDomowe
             workerName = name;
 
         }
+        /// <summary>
+        /// Metoda informująca o zaczęciu pracy.
+        /// </summary>
+        /// <returns></returns>
         public override string StartWork()
         {
             return "Kupiec " + workerName + " zaczął pracę";
         }
-
+        /// <summary>
+        /// Metoda informująca o sprzedaniu.
+        /// </summary>
+        /// <returns></returns>
         public override string StopWork()
         {
             return "Kupiec " + workerName + " sprzedany";

@@ -9,7 +9,7 @@ namespace KrzysztofJopekLab2ZadanieDomowe
     class Fire : Disaster
     {
         /// <summary>
-        /// Konstruktor klasy Tram
+        /// Konstruktor klasy Fire
         /// </summary>
         /// <param name="nr"></param>
         /// <param name="year"></param>
@@ -18,7 +18,10 @@ namespace KrzysztofJopekLab2ZadanieDomowe
         {
             damagePoints = dp;
         }
-
+        /// <summary>
+        /// Metoda informująca o pożarze.
+        /// </summary>
+        /// <returns></returns>
         public override string StartDisaster()
         {
             return "Pożar w lesie! Tracisz część swoich jednostek drewna!";
