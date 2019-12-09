@@ -1,0 +1,10 @@
+Login:    Hasło:
+
+admin    admin
+Krzysztof KR121518
+Piotr PI121518
+Anna AN121518
+Łukasz ŁU121518
+Aleksandra AL121518
+Bartosz BR121518 
+Agnieszka AG121518

@@ -1,0 +1,12 @@
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\bin\Debug\KrzysztofJopekLab3Zadanie.exe.config
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\bin\Debug\KrzysztofJopekLab3Zadanie.exe
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\bin\Debug\KrzysztofJopekLab3Zadanie.pdb
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\obj\Debug\KrzysztofJopekLab3Zadanie.csprojAssemblyReference.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\obj\Debug\KrzysztofJopekLab3Zadanie.Properties.Resources.resources
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\obj\Debug\KrzysztofJopekLab3Zadanie.csproj.GenerateResource.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\obj\Debug\KrzysztofJopekLab3Zadanie.exe
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\obj\Debug\KrzysztofJopekLab3Zadanie.pdb
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\obj\Debug\KrzysztofJopekLab3Zadanie.FormNewVisit.resources
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\obj\Debug\KrzysztofJopekLab3Zadanie.FormSignIn.resources
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\obj\Debug\KrzysztofJopekLab3Zadanie.FormHospital.resources
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab3\KrzysztofJopekLab3Zadanie\obj\Debug\KrzysztofJopekLab3Zadanie.FormDoctors.resources

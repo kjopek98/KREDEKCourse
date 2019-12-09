@@ -1,0 +1,5 @@
+Przychodnia.  Program umożliwia przeglądanie obecnie zamówionych wizyt u lekarza, 
+usunięcie wybranych wizyt lub dodanie nowej wizyty.
+Użytkownik może filtrować wizyty według 3 różnych specjalizacji.
+Użytkownik może sprawdzić dostępnych lekarzy w przychodni i jaką mają specjalizację.
+Aby uzyskać dostęp do systemu należy się zalogować. Logowanie jest weryfikowane z bazą danych.
