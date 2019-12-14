@@ -21,11 +21,18 @@ namespace KrzysztofJopekLab4Zadanie
             _tickets = new FlightStoreGeneric<Ticket>();
             LoadTickets();
         }
+        /// <summary>
+        /// Załadowanie biletów z bazy danych
+        /// </summary>
         private void LoadTickets()
         {
             dataGridViewTickets.DataSource = _tickets.GetAll();
         }
-
+        /// <summary>
+        /// Dodawanie biletu 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonTicketAdd_Click(object sender, EventArgs e)
         {
             var ticketPlaceNumber = textBoxTicketPlaceNumber.Text;
@@ -46,7 +53,11 @@ namespace KrzysztofJopekLab4Zadanie
 
             LoadTickets();
         }
-
+        /// <summary>
+        /// Usuwanie wybranego biletu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonTicketDelete_Click(object sender, EventArgs e)
         {
             var selectedTicketIndex = Int32.Parse(dataGridViewTickets.SelectedRows[0].Cells[0].Value.ToString());
@@ -57,7 +68,11 @@ namespace KrzysztofJopekLab4Zadanie
 
             LoadTickets();
         }
-
+        /// <summary>
+        /// Wypełnienie danymi wybranego biletu do edycji
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonTicketUpdate_Click(object sender, EventArgs e)
         {
             var selectedTicketIndex = Int32.Parse(dataGridViewTickets.SelectedRows[0].Cells[0].Value.ToString());
@@ -66,10 +81,14 @@ namespace KrzysztofJopekLab4Zadanie
             textBoxUpdateTicketId.Text = updateTicket.Id.ToString();
             textBoxUpdateTicketPlaceNumber.Text = updateTicket.Place_number;
             textBoxUpdateTicketLuggageId.Text = updateTicket.LuggageId.ToString();
-            textBoxUpdateTicketPassengerId.Text = updateTicket.Passenger.ToString();
+            textBoxUpdateTicketPassengerId.Text = updateTicket.PassengerId.ToString();
             textBoxUpdateTicketFlightId.Text = updateTicket.FlightId.ToString();
         }
-
+        /// <summary>
+        /// Edycja biletu i zapisywanie zmian
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonTicketSaveChanges_Click(object sender, EventArgs e)
         {
             var ticketUpdatedId = Int32.Parse(textBoxUpdateTicketId.Text);

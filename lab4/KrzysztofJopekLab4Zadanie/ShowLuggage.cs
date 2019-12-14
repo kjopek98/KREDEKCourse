@@ -21,7 +21,9 @@ namespace KrzysztofJopekLab4Zadanie
             _luggage = new FlightStoreGeneric<Luggage>();
             LoadLuggage();
         }
-
+        /// <summary>
+        /// Załadowanie dostępnych pakietów bagaży do DataGridView z bazy danych 
+        /// </summary>
         private void LoadLuggage()
         {
             dataGridViewLuggageShow.DataSource = _luggage.GetAll();

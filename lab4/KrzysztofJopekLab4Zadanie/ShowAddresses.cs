@@ -21,7 +21,9 @@ namespace KrzysztofJopekLab4Zadanie
             _addresses = new FlightStoreGeneric<Address>();
             LoadAddresses();
         }
-
+        /// <summary>
+        /// Załadowanie adresów do DataGridView z bazy danych
+        /// </summary>
         private void LoadAddresses()
         {
             dataGridViewAddressShow.DataSource = _addresses.GetAll();

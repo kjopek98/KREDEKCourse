@@ -17,6 +17,9 @@ namespace KrzysztofJopekLab4Zadanie
         private readonly IFlightStoreGeneric<Passenger> _passengers;
         private readonly IFlightStoreGeneric<Flight> _flights;
         private readonly IFlightStoreGeneric<Address> _adresses;
+        /// <summary>
+        /// Konstruktor okna i załadowanie DataGridView danymi z bazy danych
+        /// </summary>
         public FlightStore()
         {
             InitializeComponent();
@@ -42,25 +45,41 @@ namespace KrzysztofJopekLab4Zadanie
         {
             dataGridViewFlights.DataSource = _flights.GetAll();
         }
-
+        /// <summary>
+        /// Otworzenie okna z obsługą biletów
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonTicketShow_Click(object sender, EventArgs e)
         {
             BuyTicket buyTicket = new BuyTicket();
             buyTicket.Show();
         }
-
+        /// <summary>
+        /// Wyświetlenie dostępnych adresów
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonAddressShow_Click(object sender, EventArgs e)
         {
             ShowAddresses showAddresses = new ShowAddresses();
             showAddresses.Show();
         }
-
+        /// <summary>
+        /// Wyświetlenie dostępnych pakietów bagażu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonLuggageShow_Click(object sender, EventArgs e)
         {
             ShowLuggage showLuggage = new ShowLuggage();
             showLuggage.Show();
         }
-
+        /// <summary>
+        /// Dodanie nowego pasażera
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonPassengerAdd_Click(object sender, EventArgs e)
         {
             var passengerName = textBoxPassengerName.Text;
@@ -83,7 +102,11 @@ namespace KrzysztofJopekLab4Zadanie
 
             LoadPassengers();
         }
-
+        /// <summary>
+        /// Usuwanie wybranego pasażera
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonPassengerDelete_Click(object sender, EventArgs e)
         {
             var selectedPassengerIndex = Int32.Parse(dataGridViewPassengers.SelectedRows[0].Cells[0].Value.ToString());
@@ -94,7 +117,11 @@ namespace KrzysztofJopekLab4Zadanie
 
             LoadPassengers();
         }
-
+        /// <summary>
+        /// Wypełnienie danymi do edycji wybranego pasażera
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonPassengerUpdate_Click(object sender, EventArgs e)
         {
             var selectedPassengerIndex = Int32.Parse(dataGridViewPassengers.SelectedRows[0].Cells[0].Value.ToString());
@@ -108,7 +135,11 @@ namespace KrzysztofJopekLab4Zadanie
             textBoxUpdatePassengerAddressId.Text = updatePassenger.AddressId.ToString();
         }
     
-
+        /// <summary>
+        /// Wyświetlenie adresu przypisanego do wybranego pasażera
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonPassengerAddressShow_Click(object sender, EventArgs e)
         {
             var selectedPassengerIndex = Int32.Parse(dataGridViewPassengers.SelectedRows[0].Cells[0].Value.ToString());
@@ -120,7 +151,11 @@ namespace KrzysztofJopekLab4Zadanie
                 address.Province+ ", Powiat - " + address.District + ", Miasto - " + address.City +
                 ", Ulica - "+ address.Street+ ", Numer domu - "+ address.House_number+ ", Numer lokalu - "+ address.Local_number);
         }
-
+        /// <summary>
+        /// Edycja danych wybranego pasażera i zapisanie zmian
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonPassengerSaveChanges_Click(object sender, EventArgs e)
         {
             int passengerUpdatedId = Int32.Parse(textBoxUpdatePassengerId.Text);
@@ -142,7 +177,11 @@ namespace KrzysztofJopekLab4Zadanie
 
             LoadPassengers();
         }
-
+        /// <summary>
+        /// Dodanie nowego lotu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonFlightAdd_Click(object sender, EventArgs e)
         {
             var flightDeparture = textBoxFlightDeparture.Text;
@@ -162,7 +201,11 @@ namespace KrzysztofJopekLab4Zadanie
 
             LoadFlights();
         }
-
+        /// <summary>
+        /// Usunięcie wybranego lotu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonFlightDelete_Click(object sender, EventArgs e)
         {
             var selectedFlightIndex = Int32.Parse(dataGridViewFlights.SelectedRows[0].Cells[0].Value.ToString());
@@ -173,7 +216,11 @@ namespace KrzysztofJopekLab4Zadanie
 
             LoadFlights();
         }
-
+        /// <summary>
+        /// Wypełnienie danymi do edycji wybranego lotu 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonUpdateFlight_Click(object sender, EventArgs e)
         {
 
@@ -186,7 +233,11 @@ namespace KrzysztofJopekLab4Zadanie
             dateTimePickerFlightDateFlight.Text = updateFlight.FlightDate.ToString();
             
         }
-
+        /// <summary>
+        /// Edycja danych wybranego lotu i zapisanie zmian 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonFlightSaveChanges_Click(object sender, EventArgs e)
         {
             int flightUpdatedId = Int32.Parse(textBoxUpdateFlightId.Text);

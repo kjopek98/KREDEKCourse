@@ -1,0 +1,3 @@
+System sprzedaży biletów pasażerskich linii lotniczej.
+Program umożliwia wyświetlanie oraz modyfikację (dodaj, usuń lub edytuj) listy dostępnych lotów, pasażerów oraz biletów.
+Ponadto użytkownik może wyświetlić listy dostępnych pakietów bagaży oraz adresów pasażerów.
