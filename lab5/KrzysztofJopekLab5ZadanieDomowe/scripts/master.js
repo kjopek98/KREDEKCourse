@@ -8,6 +8,7 @@ let timer = 5;
 let colors = generateRandomColors();
 let selectedColor;
 
+//generowanie kolorów
 function generateRandomColors() {
     let arr = [];
     for (let i = 0; i < boxes.length; i++) {
@@ -16,7 +17,7 @@ function generateRandomColors() {
 
     return arr;
 }
-
+// funkcja generująca losowy kolor
 function randomColor() {
     let red = Math.floor(Math.random() * 256);
     let green = Math.floor(Math.random() * 256);
@@ -24,7 +25,7 @@ function randomColor() {
 
     return `rgb(${red}, ${green}, ${blue})`;
 }
-
+// funkcja wyświetlająca numer koloru do odgadnięcia
 function setPuzzleText(colorArr) {
     selectedColor = Math.floor(Math.random() * colorArr.length);
     puzzleText.textContent = colorArr[selectedColor];
@@ -47,6 +48,7 @@ function resetGame() {
     isPlaying = true;
 }
 
+//funkcja wyłaniająca zwycięzcę
 function setWinner(color) {
     for (let i = 0; i < boxes.length; i++) {
         boxes[i].style.opacity = '1';
