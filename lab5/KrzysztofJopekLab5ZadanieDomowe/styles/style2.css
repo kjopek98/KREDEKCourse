@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font&display=swap');
+
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    background-image: url(../images/background.jpg);
+    box-sizing: border-box;
+}
+
+.container{
+    padding:20px;
+}
+h1{
+    color: red;
+}
+
+.aboutme{
+    color: yellow;
+    font-size: 20px;
+
+}
