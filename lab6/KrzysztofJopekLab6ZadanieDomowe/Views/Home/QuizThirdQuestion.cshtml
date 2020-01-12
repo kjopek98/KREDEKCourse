@@ -1,0 +1,53 @@
+﻿@model QuizViewModel
+@{
+    ViewData["Title"] = "QuizThirdQuestion";
+}
+
+<h3>Odpowiedziałeś: @Model.Answer</h3>
+<br />
+@{
+    if (Model.Answer == "Boston Celtics")
+    {
+        @:<h3>To poprawna odpowiedź!</h3>
+    }
+    else
+    {
+        @:<h3>To niestety zła odpowiedź. :(</h3>
+    }
+}
+<br />
+
+<h3>Poprawne odpowiedzi: @Model.CorrectAnswers</h3>
+
+
+<h3>Trzecie pytanie</h3>
+<br />
+
+<h3>Jaki koszykarz ma aktualny rekord trafionych rzutów za trzy w jednym sezonie?</h3>
+<br />
+
+<!-- Formularz kontaktowy -->
+@using (Html.BeginForm("QuizThirdQuestionPost", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+
+
+    <!-- Odpowiedź -->
+    <div class="form-horizontal">
+        @Html.LabelFor(model => model.Answer, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Answer, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <!-- Przycisk wysyłający formularz-->
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Zatwierdź" class="btn btn-success" />
+        </div>
+    </div>
+    @Html.HiddenFor(model => model.CorrectAnswers)
+}
+
+

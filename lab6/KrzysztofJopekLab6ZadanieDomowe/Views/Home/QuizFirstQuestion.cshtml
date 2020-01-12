@@ -1,0 +1,34 @@
+﻿@model QuizViewModel
+@{
+    ViewData["Title"] = "QuizFirstQuestion";
+}
+
+<h2>Witamy w quizie! Sprawdź swoją wiedzę!</h2>
+<br />
+
+<h3>Pierwsze pytanie</h3>
+<br />
+
+<h3> Kto jest aktualnym mistrzem NBA? (Podaj pełną nazwę)</h3>
+
+<!-- Formularz kontaktowy -->
+@using (Html.BeginForm("QuizFirstQuestionPost", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <!-- Odpowiedź -->
+    <div class="form-horizontal">
+        @Html.LabelFor(model => model.Answer, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Answer, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <!-- Przycisk wysyłający formularz-->
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Zatwierdź" class="btn btn-success" />
+        </div>
+    </div>
+    @Html.HiddenFor(model => model.CorrectAnswers)
+}

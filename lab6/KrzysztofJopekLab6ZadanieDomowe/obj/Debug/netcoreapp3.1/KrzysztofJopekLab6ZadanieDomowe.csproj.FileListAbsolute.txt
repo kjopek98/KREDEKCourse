@@ -107,3 +107,7 @@ C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab6\KrzysztofJopekLab6ZadanieDomowe\obj\D
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab6\KrzysztofJopekLab6ZadanieDomowe\obj\Debug\netcoreapp3.1\KrzysztofJopekLab6ZadanieDomowe.dll
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab6\KrzysztofJopekLab6ZadanieDomowe\obj\Debug\netcoreapp3.1\KrzysztofJopekLab6ZadanieDomowe.pdb
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab6\KrzysztofJopekLab6ZadanieDomowe\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetAllBallers.cshtml.g.cs
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab6\KrzysztofJopekLab6ZadanieDomowe\obj\Debug\netcoreapp3.1\Razor\Views\Home\QuizFirstQuestion.cshtml.g.cs
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab6\KrzysztofJopekLab6ZadanieDomowe\obj\Debug\netcoreapp3.1\Razor\Views\Home\QuizSecondQuestion.cshtml.g.cs
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab6\KrzysztofJopekLab6ZadanieDomowe\obj\Debug\netcoreapp3.1\Razor\Views\Home\QuizThirdQuestion.cshtml.g.cs
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab6\KrzysztofJopekLab6ZadanieDomowe\obj\Debug\netcoreapp3.1\Razor\Views\Home\Summary.cshtml.g.cs

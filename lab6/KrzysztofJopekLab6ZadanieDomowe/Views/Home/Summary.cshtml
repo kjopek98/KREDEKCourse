@@ -1,0 +1,26 @@
+﻿@model QuizViewModel
+@{
+    ViewData["Title"] = "Podsumowanie";
+}
+
+
+<h3>Odpowiedziałeś: @Model.Answer</h3>
+<br />
+@{
+    if (@Model.Answer == "Stephen Curry")
+    {
+        @:<h3>To poprawna odpowiedź!</h3>
+    }
+    else
+    {
+        @:<h3>To niestety zła odpowiedź. :(</h3>
+    }
+}
+<br />
+@Html.HiddenFor(model => model.CorrectAnswers, new { id = "Liczba poprawnych odp" })
+<h3>Poprawne odpowiedzi: @Model.CorrectAnswers</h3>
+
+<h3>Dziękujemy za wspólny czas! :)</h3>
+
+<h2>@Html.ActionLink("Powrót do strony głownej.", "Index", "Home")</h2>
+

@@ -1,7 +1,20 @@
-﻿
+﻿@model List<BallerViewModel>
 @{
-    ViewData["Title"] = "GetAllBallers";
+    ViewData["Title"] = "Lista najlepszych koszykarzy ALL-TIME";
 }
 
-<h1>GetAllBallers</h1>
+    <h1>Lista najlepszych koszykarzy ALL-TIME</h1>
 
+<!-- Iteracja po wszystkich elementach listy-->
+@foreach (var baller in Model)
+{
+<div>
+    <h4>Imię: @baller.FirstName</h4>
+    <h4>Nazwisko: @baller.LastName</h4>
+    <h4>Data urodzenia: @baller.BirthDate</h4>
+    <h4>Ostatni klub: @baller.CurrentClub</h4>
+    <h4>Pozycja: @baller.Position</h4>
+    <img src="@Url.Content(baller.Photo)" alt="@baller.LastName" />
+    <hr />
+</div>
+}
