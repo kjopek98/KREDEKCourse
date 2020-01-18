@@ -1,0 +1,13 @@
+min 5 zmiennych czasowych
+min 3 zdarzenia czasowe
+
+PictureBoc, Graph, pozycja elementów 
+*progressBar
+
+
+------
+(kod)
+-3 screeny z aplikacji
+    S1.jpg, S2 .. itp
+-Opis txt
+- bin (exe)

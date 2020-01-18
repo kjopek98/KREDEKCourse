@@ -1,0 +1,10 @@
+C:\Users\Krzysiek\Desktop\KREDEK\KrzysztofJopekLab1\bin\Debug\KrzysztofJopekLab1.exe.config
+C:\Users\Krzysiek\Desktop\KREDEK\KrzysztofJopekLab1\bin\Debug\KrzysztofJopekLab1.exe
+C:\Users\Krzysiek\Desktop\KREDEK\KrzysztofJopekLab1\bin\Debug\KrzysztofJopekLab1.pdb
+C:\Users\Krzysiek\Desktop\KREDEK\KrzysztofJopekLab1\obj\Debug\KrzysztofJopekLab1.csprojAssemblyReference.cache
+C:\Users\Krzysiek\Desktop\KREDEK\KrzysztofJopekLab1\obj\Debug\KrzysztofJopekLab1.FormMain.resources
+C:\Users\Krzysiek\Desktop\KREDEK\KrzysztofJopekLab1\obj\Debug\KrzysztofJopekLab1.Properties.Resources.resources
+C:\Users\Krzysiek\Desktop\KREDEK\KrzysztofJopekLab1\obj\Debug\KrzysztofJopekLab1.csproj.GenerateResource.cache
+C:\Users\Krzysiek\Desktop\KREDEK\KrzysztofJopekLab1\obj\Debug\KrzysztofJopekLab1.exe
+C:\Users\Krzysiek\Desktop\KREDEK\KrzysztofJopekLab1\obj\Debug\KrzysztofJopekLab1.pdb
+C:\Users\Krzysiek\Desktop\KREDEK\KrzysztofJopekLab1\obj\Debug\KrzysztofJopekLab1.FormAbout.resources

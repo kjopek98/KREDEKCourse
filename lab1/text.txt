@@ -1,0 +1,6 @@
+<connectionStrings>
+    <add name="Warehouse" connectionString="Data Source=DESKTOP-I4LUL8N\KAMILSQL;Database=WarehouseManagement;Integrated Security=True"
+      providerName="System.Data.EntityClient" />
+</connectionStrings>
+
+private readonly Func<SqlConnection> dbConnectionWareHouse = () => new SqlConnection(ConfigurationManager.ConnectionStrings["Warehouse"].ConnectionString);
