@@ -1,0 +1,16 @@
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\bin\Debug\netcoreapp2.0\KNKredek.Tests.deps.json
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\bin\Debug\netcoreapp2.0\KNKredek.Tests.runtimeconfig.json
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\bin\Debug\netcoreapp2.0\KNKredek.Tests.runtimeconfig.dev.json
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\bin\Debug\netcoreapp2.0\KNKredek.Tests.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\bin\Debug\netcoreapp2.0\KNKredek.Tests.pdb
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\bin\Debug\netcoreapp2.0\KNKredek.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\bin\Debug\netcoreapp2.0\KNKredek.pdb
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\obj\Debug\netcoreapp2.0\KNKredek.Tests.csprojAssemblyReference.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\obj\Debug\netcoreapp2.0\KNKredek.Tests.AssemblyInfoInputs.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\obj\Debug\netcoreapp2.0\KNKredek.Tests.AssemblyInfo.cs
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\obj\Debug\netcoreapp2.0\KNKredek.Tests.csproj.CopyComplete
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\obj\Debug\netcoreapp2.0\KNKredek.Tests.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek.Tests\obj\Debug\netcoreapp2.0\KNKredek.Tests.pdb

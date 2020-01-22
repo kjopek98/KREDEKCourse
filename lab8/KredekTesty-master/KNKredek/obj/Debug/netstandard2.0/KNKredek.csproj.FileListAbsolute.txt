@@ -7,3 +7,11 @@ C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\obj\Debug\netstandard2.0\KNKred
 C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\obj\Debug\netstandard2.0\KNKredek.AssemblyInfo.cs
 C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\obj\Debug\netstandard2.0\KNKredek.dll
 C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\obj\Debug\netstandard2.0\KNKredek.pdb
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek\bin\Debug\netstandard2.0\KNKredek.deps.json
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek\bin\Debug\netstandard2.0\KNKredek.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek\bin\Debug\netstandard2.0\KNKredek.pdb
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek\obj\Debug\netstandard2.0\KNKredek.csprojAssemblyReference.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek\obj\Debug\netstandard2.0\KNKredek.AssemblyInfoInputs.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek\obj\Debug\netstandard2.0\KNKredek.AssemblyInfo.cs
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek\obj\Debug\netstandard2.0\KNKredek.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab8\KredekTesty-master\KNKredek\obj\Debug\netstandard2.0\KNKredek.pdb

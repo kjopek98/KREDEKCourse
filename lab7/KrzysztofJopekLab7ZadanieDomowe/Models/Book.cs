@@ -9,7 +9,7 @@ namespace KrzysztofJopekLab7ZadanieDomowe.Models
     public class Book
     {
         [Key]
-        public int BookId { get; set; }
+        public int Id { get; set; }
         [Required]
         public string Title { get; set; }
         [Required]

@@ -35,7 +35,7 @@ namespace KrzysztofJopekLab7ZadanieDomowe.Services
         {
             
 
-            var book = _context.Books.SingleOrDefault(p => p.BookId.Equals(id));
+            var book = _context.Books.SingleOrDefault(p => p.Id.Equals(id));
 
             return book;
         }
@@ -60,7 +60,7 @@ namespace KrzysztofJopekLab7ZadanieDomowe.Services
         /// <returns></returns>
         public bool Put(Book book, int id)
         {
-            var bookToUpdate = _context.Books.SingleOrDefault(p => p.BookId.Equals(id));
+            var bookToUpdate = _context.Books.SingleOrDefault(p => p.Id.Equals(id));
 
             if (bookToUpdate == null)
                 return false;
@@ -90,7 +90,7 @@ namespace KrzysztofJopekLab7ZadanieDomowe.Services
         /// <returns></returns>
         public bool Delete(int id)
         {
-            var bookToDelete = _context.Books.SingleOrDefault(p => p.BookId.Equals(id));
+            var bookToDelete = _context.Books.SingleOrDefault(p => p.Id.Equals(id));
 
             if (bookToDelete == null)
             {
