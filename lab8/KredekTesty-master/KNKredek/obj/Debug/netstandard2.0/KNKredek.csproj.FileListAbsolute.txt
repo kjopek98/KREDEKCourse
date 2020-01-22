@@ -1,0 +1,9 @@
+C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\bin\Debug\netstandard2.0\KNKredek.deps.json
+C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\bin\Debug\netstandard2.0\KNKredek.dll
+C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\bin\Debug\netstandard2.0\KNKredek.pdb
+C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\obj\Debug\netstandard2.0\KNKredek.csprojAssemblyReference.cache
+C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\obj\Debug\netstandard2.0\KNKredek.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\obj\Debug\netstandard2.0\KNKredek.AssemblyInfoInputs.cache
+C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\obj\Debug\netstandard2.0\KNKredek.AssemblyInfo.cs
+C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\obj\Debug\netstandard2.0\KNKredek.dll
+C:\Users\Jakub\Desktop\KNKredekStudents\KNKredek\obj\Debug\netstandard2.0\KNKredek.pdb
