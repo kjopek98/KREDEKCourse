@@ -6,44 +6,46 @@ using System.Threading.Tasks;
 
 namespace KrzysztofJopekLab7ZadanieDomowe.Services
 {
-    public interface IBookService
+    public interface IUserService
     {
+
         public void LoadDb(ApplicationDbContext context);
 
         /// <summary>
-        /// Zwraca listę wszystkich książek
+        /// Zwraca listę wszystkich użytkowników
         /// </summary>
         /// <returns></returns>
-        public List<Book> Get();
-   
-        /// <summary>
-        /// Zwraca pojedynczą książkę o podanym Id
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
-        public Book GetBook(int id);
+        public List<User> Get();
 
         /// <summary>
-        /// Metoda do dodawania nowej książki
+        /// Zwraca pojedynczego użytkownika o podanym Id
         /// </summary>
-        /// <param name="book"></param>
-        /// <returns></returns>
-        public bool Post(Book book);
-       
-        /// <summary>
-        /// Metoda do edytowania istniejącej książki
-        /// </summary>
-        /// <param name="book"></param>
         /// <param name="id"></param>
         /// <returns></returns>
-        public bool Put(Book book, int id);
-      
+        public User GetUser(int id);
+
         /// <summary>
-        /// Metoda do usuwania książki
+        /// Metoda do dodawania nowego użytkownika
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        public bool Post(User user);
+
+        /// <summary>
+        /// Metoda do edytowania istniejącego użytkownika
+        /// </summary>
+        /// <param name="user"></param>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public bool Put(User user, int id);
+
+        /// <summary>
+        /// Metoda do usuwania użytkownika
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
         public bool Delete(int id);
-       
+
     }
 }
+

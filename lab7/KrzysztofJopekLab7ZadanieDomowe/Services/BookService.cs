@@ -11,6 +11,10 @@ namespace KrzysztofJopekLab7ZadanieDomowe.Services
 
         private ApplicationDbContext _context;
 
+        /// <summary>
+        /// Wczytywanie bazy
+        /// </summary>
+        /// <param name="context"></param>
         public void LoadDb(ApplicationDbContext context)
         {
             _context = context;

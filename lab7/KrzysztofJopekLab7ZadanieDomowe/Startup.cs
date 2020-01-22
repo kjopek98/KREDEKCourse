@@ -15,6 +15,9 @@ using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using KrzysztofJopekLab7ZadanieDomowe.Services;
 using KrzysztofJopekLab7ZadanieDomowe.IoC;
+using Swashbuckle.AspNetCore.Swagger;
+using Swashbuckle.Swagger;
+using Microsoft.OpenApi.Models;
 
 namespace KrzysztofJopekLab7ZadanieDomowe
 {
@@ -30,9 +33,14 @@ namespace KrzysztofJopekLab7ZadanieDomowe
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Dodanie dependency injection
             services.AddSingleton<IBookService, BookService>();
+            services.AddSingleton<IUserService, UserService>();
 
-
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Values Api", Version = "v1" });
+            });
             
             services.AddDbContextPool<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DBConnection")));
           
@@ -46,13 +54,13 @@ namespace KrzysztofJopekLab7ZadanieDomowe
         {
             IoCContainer.Provider = serviceProvider as ServiceProvider;
 
-            //app.UseSwagger();
+            app.UseSwagger();
 
-            /*app.UseSwaggerUI(c =>
+            app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Book API");
             });
-*/
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

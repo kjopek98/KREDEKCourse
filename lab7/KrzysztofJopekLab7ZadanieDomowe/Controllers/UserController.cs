@@ -2,46 +2,48 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using KrzysztofJopekLab7ZadanieDomowe.Models;
+using KrzysztofJopekLab7ZadanieDomowe.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KrzysztofJopekLab7ZadanieDomowe.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/user")]
     [ApiController]
     public class UserController : ControllerBase
     {
-        public UserController()
+        private readonly IUserService _userService;
+        public UserController(ApplicationDbContext context, IUserService userService)
         {
-
+            _userService = userService;
+            _userService.LoadDb(context);
         }
-
-        // GET: api/Books
         [HttpGet]
         public IActionResult Get()
         {
 
-            var books = _bookService.Get();
+            var users = _userService.Get();
 
-            return Ok(books);
+            return Ok(users);
         }
         [HttpPost]
-        public IActionResult Post([FromBody] Book book)
+        public IActionResult Post([FromBody] User user)
         {
-            var id = _bookService.Post(book);
+            var id = _userService.Post(user);
             return Ok(id);
         }
         [HttpPut]
         [Route("{id:int}")]
-        public IActionResult Put([FromBody] Book book, [FromRoute] int id)
+        public IActionResult Put([FromBody] User user , [FromRoute] int id)
         {
-            if (id != book.Id)
+            if (id != user.ID)
             {
                 return Conflict("Nie można edytować id!");
             }
             else
             {
-                var isUpdateSuccesful = _bookService.Put(book, id);
+                var isUpdateSuccesful = _userService.Put(user, id);
                 if (isUpdateSuccesful)
                 {
                     return NoContent();
@@ -57,7 +59,7 @@ namespace KrzysztofJopekLab7ZadanieDomowe.Controllers
         [Route("{id:int}")]
         public IActionResult Delete([FromRoute] int id)
         {
-            bool isDeleteSuccesful = _bookService.Delete(id);
+            bool isDeleteSuccesful = _userService.Delete(id);
             if (isDeleteSuccesful)
             {
                 return NoContent();
