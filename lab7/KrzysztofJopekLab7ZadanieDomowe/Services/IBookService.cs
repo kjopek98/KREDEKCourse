@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KrzysztofJopekLab7ZadanieDomowe.Services
 {
-    interface IBookService
+    public interface IBookService
     {
         public void LoadDb(ApplicationDbContext context);
 

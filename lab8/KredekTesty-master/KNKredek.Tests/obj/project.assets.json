@@ -2614,11 +2614,12 @@
       ]
     },
     "runtime.native.System/4.0.0": {
-      "sha512": "Nl5dYPOcR6zsCDd3i7r5C3LpsGa6TD100XuQi19ubKzXXsJ7nfLLyELoC2Z2aNKSJs/DbmZevJ+6Zkub0Xu19Q==",
+      "sha512": "QfS/nQI7k/BLgmLrw7qm7YBoULEvgWnPI+cYsbfCVFTW8Aj+i8JhccxcFMu1RWms0YZzF+UHguNBK4Qn89e2Sg==",
       "type": "package",
       "path": "runtime.native.system/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -4754,11 +4755,12 @@
       ]
     },
     "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
-      "sha512": "3eaeDFDE7jg3TxUzBZ8anuMhHUDJAOjF8FX4SBdtBc0GbXVm2cPOLEMyg2OC4qgWYW+wjavw9ML3xIfbIPqptQ==",
+      "sha512": "hWPhJxc453RCa8Z29O91EmfGeZIHX1ZH2A8L6lYQVSaKzku2DfArSfMEb1/MYYzPQRJZeu0c9dmYeJKxW5Fgng==",
       "type": "package",
       "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5869,23 +5871,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jakub\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Krzysiek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jakub\\Desktop\\KNKredekStudents\\KNKredek.Tests\\KNKredek.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Krzysiek\\Desktop\\KREDEK-KURS\\lab8\\KredekTesty-master\\KNKredek.Tests\\KNKredek.Tests.csproj",
       "projectName": "KNKredek.Tests",
-      "projectPath": "C:\\Users\\Jakub\\Desktop\\KNKredekStudents\\KNKredek.Tests\\KNKredek.Tests.csproj",
-      "packagesPath": "C:\\Users\\Jakub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jakub\\Desktop\\KNKredekStudents\\KNKredek.Tests\\obj\\",
+      "projectPath": "C:\\Users\\Krzysiek\\Desktop\\KREDEK-KURS\\lab8\\KredekTesty-master\\KNKredek.Tests\\KNKredek.Tests.csproj",
+      "packagesPath": "C:\\Users\\Krzysiek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Krzysiek\\Desktop\\KREDEK-KURS\\lab8\\KredekTesty-master\\KNKredek.Tests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Krzysiek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5898,8 +5896,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Jakub\\Desktop\\KNKredekStudents\\KNKredek\\KNKredek.csproj": {
-              "projectPath": "C:\\Users\\Jakub\\Desktop\\KNKredekStudents\\KNKredek\\KNKredek.csproj"
+            "C:\\Users\\Krzysiek\\Desktop\\KREDEK-KURS\\lab8\\KredekTesty-master\\KNKredek\\KNKredek.csproj": {
+              "projectPath": "C:\\Users\\Krzysiek\\Desktop\\KREDEK-KURS\\lab8\\KredekTesty-master\\KNKredek\\KNKredek.csproj"
             }
           }
         }
@@ -5933,10 +5931,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

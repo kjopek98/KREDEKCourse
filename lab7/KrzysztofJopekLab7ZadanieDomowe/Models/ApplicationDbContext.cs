@@ -14,9 +14,8 @@ namespace KrzysztofJopekLab7ZadanieDomowe.Models
 
 
 
-        public ApplicationDbContext()
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
         }
     }
 }

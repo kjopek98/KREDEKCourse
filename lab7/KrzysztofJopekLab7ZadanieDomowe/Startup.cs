@@ -14,6 +14,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using KrzysztofJopekLab7ZadanieDomowe.Services;
+using KrzysztofJopekLab7ZadanieDomowe.IoC;
 
 namespace KrzysztofJopekLab7ZadanieDomowe
 {
@@ -41,8 +42,17 @@ namespace KrzysztofJopekLab7ZadanieDomowe
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider serviceProvider)
         {
+            IoCContainer.Provider = serviceProvider as ServiceProvider;
+
+            //app.UseSwagger();
+
+            /*app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Book API");
+            });
+*/
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

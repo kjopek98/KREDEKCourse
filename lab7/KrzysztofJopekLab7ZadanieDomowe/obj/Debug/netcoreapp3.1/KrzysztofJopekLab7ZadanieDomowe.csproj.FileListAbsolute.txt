@@ -142,3 +142,11 @@ C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\bin\D
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\obj\Debug\netcoreapp3.1\KrzysztofJopekLab7ZadanieDomowe.csprojAssemblyReference.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\obj\Debug\netcoreapp3.1\KrzysztofJopekLab7ZadanieDomowe.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\obj\Debug\netcoreapp3.1\KrzysztofJopekLab7ZadanieDomowe.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab7\KrzysztofJopekLab7ZadanieDomowe\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
