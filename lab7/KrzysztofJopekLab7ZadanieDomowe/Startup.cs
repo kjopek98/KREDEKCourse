@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
+using KrzysztofJopekLab7ZadanieDomowe.Services;
 
 namespace KrzysztofJopekLab7ZadanieDomowe
 {
@@ -28,12 +29,15 @@ namespace KrzysztofJopekLab7ZadanieDomowe
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAutoMapper(typeof(Startup));
+            services.AddSingleton<IBookService, BookService>();
 
-            var connection = "Server=DESKTOP-AKOFIB3\\JOPEKSQL;Port=5432;Database=BookDB;user=sa;Password=Miamiheat1998;";
-            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connection));
+
+            
+            services.AddDbContextPool<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DBConnection")));
           
             services.AddControllers();
+            //dodanie automappera
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

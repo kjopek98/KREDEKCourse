@@ -6,18 +6,22 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using KrzysztofJopekLab7ZadanieDomowe.Models;
+using AutoMapper;
+using KrzysztofJopekLab7ZadanieDomowe.Services;
 
 namespace KrzysztofJopekLab7ZadanieDomowe.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/book")]
     [ApiController]
     public class BooksController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IBookService _bookService;
+        private readonly IMapper _mapper;
 
-        public BooksController(AppDbContext context)
+        public BooksController(ApplicationDbContext context, IBookService bookService, IMapper mapper)
         {
-            _context = context;
+            _bookService = bookService;
+
         }
 
         // GET: api/Books
