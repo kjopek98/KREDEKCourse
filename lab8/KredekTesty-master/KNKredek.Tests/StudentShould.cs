@@ -33,7 +33,7 @@ namespace KNKredek.Tests
         [InlineData("asdw", "ss")]
         public void CalculateFullName(string firstName, string lastName)
         {
-            Student sut = new Student(); //
+            Student sut = new Student(); // system under test
 
             sut.FirstName = firstName;
             sut.LastName = lastName;
@@ -118,6 +118,14 @@ namespace KNKredek.Tests
                 handler => sut.StudentRest += handler,
                 handler => sut.StudentRest += handler,
                 () => sut.Rest());
+        }
+
+        [Fact]
+        public void RaisePropertyChangeEvent()
+        {
+            Student sut = new Student();
+
+            Assert.PropertyChanged(sut, "Motivation", () => sut.TakeAllTheCodeIn2Hours());
         }
     }
 }

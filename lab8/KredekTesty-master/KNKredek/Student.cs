@@ -73,7 +73,10 @@ namespace KNKredek
 
         public void TakeAllTheCodeIn2Hours()
         {
-           
+            var rnd = new Random();
+     
+            Motivation -= rnd.Next(10, 60);
+
         }
 
         public void Rest()
