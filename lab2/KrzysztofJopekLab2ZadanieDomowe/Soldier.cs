@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KrzysztofJopekLab2ZadanieDomowe
 {
-    class Soldier : Worker
+    public class Soldier : Worker
     {
         /// <summary>
         /// Konstruktor klasy Tram

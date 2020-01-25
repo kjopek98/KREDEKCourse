@@ -9,8 +9,8 @@ namespace KrzysztofJopekLab2ZadanieDomowe
     abstract public class Worker
     {
         //zmienne - "statystyki" robotnika.
-        protected int healthPoints, cost;
-        protected string workerName;
+        public int healthPoints, cost;
+        public  string workerName;
 
         /// <summary>
         /// Metoda pobierająca ilość punktów życia

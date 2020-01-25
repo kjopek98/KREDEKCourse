@@ -1,9 +1,12 @@
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\bin\Debug\KrzysztofJopekLab2ZadanieDomowe.exe.config
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\bin\Debug\KrzysztofJopekLab2ZadanieDomowe.exe
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\bin\Debug\KrzysztofJopekLab2ZadanieDomowe.pdb
-C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Debug\KrzysztofJopekLab2ZadanieDomowe.csprojAssemblyReference.cache
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Debug\KrzysztofJopekLab2ZadanieDomowe.Properties.Resources.resources
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Debug\KrzysztofJopekLab2ZadanieDomowe.csproj.GenerateResource.cache
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Debug\KrzysztofJopekLab2ZadanieDomowe.exe
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Debug\KrzysztofJopekLab2ZadanieDomowe.pdb
 C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Debug\KrzysztofJopekLab2ZadanieDomowe.Civilization.resources
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\bin\Debug\xunit.runner.utility.desktop.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\bin\Debug\xunit.abstractions.dll
+C:\Users\Krzysiek\Desktop\KREDEK-KURS\lab2\KrzysztofJopekLab2ZadanieDomowe\obj\Debug\KrzysztofJopekLab2ZadanieDomowe.csprojAssemblyReference.cache

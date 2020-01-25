@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KrzysztofJopekLab2ZadanieDomowe
 {
-    class Fire : Disaster
+    public class Fire : Disaster
     {
         /// <summary>
         /// Konstruktor klasy Fire
@@ -17,6 +17,12 @@ namespace KrzysztofJopekLab2ZadanieDomowe
         public Fire( int dp)
         {
             damagePoints = dp;
+        }
+
+        public void Damage( Worker worker)
+        {
+            
+            worker.healthPoints -= damagePoints;
         }
         /// <summary>
         /// Metoda informująca o pożarze.
